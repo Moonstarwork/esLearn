@@ -7,7 +7,6 @@ for (let j=0;j<10000000;j++){
 }
 
 // 每 2 秒重复一次
-let timerId = setInterval(() => console.log('tick'), 2000);
-
+let timerId = setInterval(() => console.log('tick'), 200);
 // 5 秒之后停止
 setTimeout(() => { clearInterval(timerId); console.log('stop'); }, 5000);
